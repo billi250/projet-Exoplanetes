@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated local archives and duplicate local exports
+*.zip
+/Projet_E_Exoplanetes.ipynb
+/rapport_projet_exoplanetes.md
+/rendu_projet_exoplanetes.zip
+
+# Runtime outputs
+outputs/
+figures/
+*.log
+
+# Local portable tools
+tools/
